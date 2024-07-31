@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <script type="module" src="./script.js" defer></script>
+    <title>Nathan Greuel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header-info">
+          <h1>Transforming Ideas into Reality with Code</h1>
+          <p>
+            <span>Full-Stack Developer</span> Dedicated to Delivering
+            High-Quality Digital Experiences
+          </p>
+          <div>
+            <button class="resume-btn">
+              <a href="./assets/Nathan_Greuel_Resume (2).pdf">Resume</a>
+            </button>
+            <button class="project-btn">
+              <a href="#projects">Projects</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="background"></div>
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+      </header>
+      <article class="main-content">
+        <section id="about">
+          <div class="greeting">
+            <p class="greeting-text">
+              Hello! I Am <span class="greeting-span">Nathan Greuel</span>!
+            </p>
+            <img src="./assets/images/arrow.svg" alt="" />
+          </div>
+          <div class="about-info">
+            <div>
+              <h3>Developer</h3>
+              <p>
+                I am a Full-Stack Developer with expertise in both front-end
+                technologies like React and Angular, and back-end technologies
+                such as Node.js and MongoDB. With a certificate from
+                CareerFoundry, I excel in creating responsive, user-friendly web
+                applications that ensure seamless performance and integration.
+              </p>
+            </div>
+            <img src="./assets/images/profile.svg" alt="" />
+          </div>
+        </section>
+        <section id="skills" class="skills">
+          <h3 class="skills-title">Skills and Expertise</h3>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>SASS/SCSS</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>REST APIs</li>
+            <li>Git</li>
+            <li>Agile/Scrum</li>
+            <li>CI/CD</li>
+          </ul>
+        </section>
+        <section id="projects">
+          <p>Portfolio</p>
+          <h3>Show Casing My Best Work</h3>
+          <div class="project-list">
+            <div class="project-1">
+              <div class="project-text">
+                <h4>Kanban App</h4>
+                <p>
+                  This web application enables users to manage projects and
+                  collaborate by creating, reading, updating, and deleting
+                  boards and tasks, validating forms, marking subtasks as
+                  complete, moving tasks between columns, hiding/showing the
+                  sidebar, toggling light/dark themes, and retaining changes
+                  after refreshing the browser.
+                </p>
+                <div class="project-tools">
+                  <span>React</span>
+                  <span>SCSS</span>
+                  <span>Nodejs</span>
+                </div>
+                <a href="https://github.com/Nat-crit20/kanban-client"
+                  >View Project ></a
+                >
+              </div>
+              <div class="project-img">
+                <img
+                  src="./assets//images/Portforlio-project-img/2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="project-2">
+              <div class="project-img">
+                <img
+                  src="./assets//images/Portforlio-project-img/1.png"
+                  alt=""
+                />
+              </div>
+              <div class="project-text">
+                <h4>MyFlix App</h4>
+                <p>
+                  This React single-page application serves as the frontend for
+                  my movie-API backend, allowing users to register, log in,
+                  modify account details, delete accounts, view and search
+                  movies, see movie details, and manage a list of favorite
+                  movies.
+                </p>
+                <div class="project-tools">
+                  <span>React</span>
+                  <span>MongoDB</span>
+                  <span>Nodejs</span>
+                </div>
+                <a href="https://github.com/Nat-crit20/myFlix-client"
+                  >View Project ></a
+                >
+              </div>
+            </div>
+            <div class="project-3">
+              <div class="project-text">
+                <h4>Pokedex App</h4>
+                <p>
+                  Pokédex is a small and easy to use web application. The app
+                  loads data from an external API and enables the viewing of
+                  details of each Pokémon by click.
+                </p>
+                <div class="project-tools">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Javascript</span>
+                </div>
+                <a href="#about">View Project ></a>
+              </div>
+              <div class="project-img">
+                <img
+                  src="./assets//images/Portforlio-project-img/3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <footer id="contact"></footer>
+    </main>
+  </body>
+</html>
