@@ -13,6 +13,7 @@ html {
   overflow-x: hidden;
   font-family: "Orbitron", sans-serif;
   background-color: #11071f;
+  scroll-behavior: smooth;
 }
 .header {
   width: 100vw;
@@ -39,6 +40,7 @@ html {
   align-items: center;
   width: 100%;
   z-index: 2;
+  transition: background-color ease-in 0.15s;
 }
 
 .nav ul {
@@ -109,6 +111,13 @@ html {
 .resume-btn {
   background-color: #301559;
   margin-left: 0;
+  cursor: pointer;
+  transition: transform ease-in 0.15s, opacity ease-in 0.15s;
+}
+.resume-btn:hover {
+  border: 2px solid #301559;
+  opacity: 0.5;
+  transform: translateY(-0.2rem);
 }
 .resume-btn a {
   color: white;
@@ -118,6 +127,14 @@ html {
 .project-btn {
   background-color: #b262ff;
   margin-right: 0;
+  cursor: pointer;
+  transition: transform ease-in 0.15s, opacity ease-in 0.15s;
+}
+
+.project-btn:hover {
+  border: 2px solid #b262ff;
+  opacity: 0.5;
+  transform: translateY(-0.2rem);
 }
 .project-btn a {
   color: #11071f;
@@ -392,4 +409,22 @@ canvas {
     justify-content: space-between;
     align-items: center;
   }
+}
+
+/* Contact */
+#contact {
+  background-color: #301559;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#contact a {
+  color: white;
+  margin: 0 1rem;
+  transition: color ease-in 0.15s;
+}
+#contact a:hover {
+  color: #b262ff;
 }

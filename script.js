@@ -1,5 +1,14 @@
 let canvas = document.querySelector("#canvas1");
 let canvas2 = document.querySelector("#canvas2");
+let navbar = document.querySelector(".nav");
+
+addEventListener("scroll", (e) => {
+  if (window.scrollY > 600) {
+    navbar.style.backgroundColor = "#11071f";
+  } else if (window.scrollY < 600) {
+    navbar.style.backgroundColor = "";
+  }
+});
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
